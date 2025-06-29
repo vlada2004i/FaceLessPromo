@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'JetBold';
+    src: url('../fonts/JetBrainsMono-ExtraBold.ttf') format('TrueType');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jet';
+    src: url('../fonts/JetBrainsMono-Medium.ttf') format('TrueType');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ponter';
+    src: url('../fonts/Ponter.ttf') format('TrueType');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-ExtraBold.ttf') format('TrueType');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonsieurLaDoulaise';
+    src: url('../fonts/MonsieurLaDoulaise-Regular.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}

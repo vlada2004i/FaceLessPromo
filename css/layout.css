@@ -1,0 +1,1134 @@
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+} 
+
+::selection {
+    background-color: #ffffff;
+}
+
+body {
+    height: 100%;
+    display: block;
+    font-family: 'Ponter';
+    overflow: hidden;
+}
+
+/* загрузочный экран */
+
+.preloader {
+    width: 100vw;
+    height: 71.11vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.preloader-title1 {
+    color: #000;
+    font-family: 'MonsieurLaDoulaise';
+    font-size: 10.42vw;
+    letter-spacing: -0.52vw;
+    position: absolute;
+    top: 23.47vw;
+    left: 23.26vw;
+}
+
+.preloader-title2 {
+    color: #000;
+    font-family: 'MonsieurLaDoulaise';
+    font-size: 10.42vw;
+    letter-spacing: -0.52vw;
+    position: absolute;
+    top: 23.47vw;
+    right: 25vw;
+}
+
+.bigpink {
+    width: 11.18vw;
+    height: 13.95vw;
+    position: absolute;
+    top: 22.43vw;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+.loading-title {
+    color: #FD809B;
+    font-family: 'Ponter';
+    font-size: 3.47vw;
+    position: absolute;
+    top: 38.19vw;
+    left: 47.43vw;
+}
+
+.primg {
+    position: absolute;
+}
+
+.preloader-image-1 {
+    width: 8.40vw;
+    height: 7.59vw;    
+    transform: rotate(-90deg);
+    top: 6.25vw;
+    left: 6.11vw;
+}
+
+.preloader-image-2 {
+    width: 8.69vw;
+    height: 10.82vw;
+    transform: rotate(-10.631deg);
+    top: 2.08vw;
+    left: 21.25vw;
+}
+
+.preloader-image-3 {
+    width: 13.31vw;
+    height: 10.87vw;
+    transform: rotate(2.187deg);
+    top: 9.10vw;
+    left: 38.06vw;
+
+}   
+
+.preloader-image-4 {
+    width: 9.07vw;
+    height: 10.14vw;
+    transform: rotate(35.758deg);
+    top: 3.61vw;
+    right: 36.67vw;
+}
+
+.preloader-image-5 {
+    width: 8.54vw;
+    height: 7.56vw;
+    top: 12.92vw;
+    right: 23.96vw;
+}
+
+.preloader-image-6 {
+    width: 10.72vw;
+    height: 9.62vw;
+    transform: rotate(16.529deg);
+    top: 1.53vw;
+    right: 11.74vw;
+}
+
+.preloader-image-7 {
+    width: 13.24vw;
+    height: 8.73vw;
+    transform: rotate(32.974deg);
+    top: 13.82vw;
+    right: 3.47vw;
+}
+
+.preloader-image-8 {
+    width: 13.47vw;
+    height: 8.89vw;
+    transform: rotate(14.3deg);
+    top: 17.15vw;
+    left: 6.67vw;
+}
+
+.preloader-image-9 {
+    width: 8.23vw;
+    height: 10.24vw;
+    transform: rotate(-20.685deg);
+    top: 28.68vw;
+    right: 10.63vw;
+}
+
+.preloader-image-10 {
+    width: 9vw;
+    height: 10.56vw;
+    transform: rotate(-90deg);
+    top: 36.81vw;
+    left: 13.06vw;
+}
+
+.preloader-image-11 {
+    width: 15.79vw;
+    height: 11.82vw;
+    transform: rotate(16.529deg);
+    bottom: 16.88vw;
+    left: 28.96vw;
+}
+
+.preloader-image-12 {
+    width: 8.13vw;
+    height: 7.20vw;
+    bottom: 13.47vw;
+    left: 47.43vw;
+}
+
+.preloader-image-13 {
+    width: 8.92vw;
+    height: 7.61vw;
+    bottom: 11.04vw;
+    right: 27.99vw;
+}
+
+.preloader-image-14 {
+    width: 11.38vw;
+    height: 7.51vw;
+    transform: rotate(-23.578deg);
+    bottom: 20.35vw;
+    right: 20.90vw;
+}
+
+.preloader-image-15 {
+    width: 10.36vw;
+    height: 12.10vw;
+    transform: rotate(27.116deg);
+    bottom: 13.40vw;
+    right: 7.85vw;
+}
+
+.preloader-image-16 {
+    width: 7.79vw;
+    height: 8.89vw;
+    transform: rotate(-90deg);
+    bottom: 13.06vw;
+    left: 6.94vw;
+}
+
+.preloader-image-17 {
+    width: 9.05vw;
+    height: 11.16vw;
+    transform: rotate(-10.495deg);
+    bottom: 7.99vw;
+    left: 25.90vw;
+}
+
+/* о нас */
+
+.dark-page .header {
+    background-color: black;
+}
+
+.dark-page .header-link {
+    color: white;
+}
+
+.dark-page .header-poloska {
+    background-color: #FD809B;
+}
+
+.header {
+    width: 100%;
+    height: 7.36vw;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    background: #FD809B;
+}
+  
+.header-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2vw;
+    position: relative;
+}
+
+.header-logo {
+    width: 2.71vw;
+    height: 3.38vw;
+    position: absolute;
+    top: 2.06vw;
+    left: 4.03vw;
+}
+
+.header-wrapper {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 3vw;
+}
+
+.header-link {
+    font-size: 1.11vw;
+    letter-spacing: -0.06vw;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Roboto';
+    padding: 10px 15px;
+}
+
+.header-link:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.header-poloska {
+    position: absolute;
+    top: 100%;
+    margin-top: 2.2vw;
+    width: 140%;
+    height: 0.14vw;
+    background-color: black;
+}
+
+
+.current-page {
+    color: #ffffff !important; 
+}
+
+.current-page-dark {
+    color: #FD809B !important; 
+}
+
+.banner {
+    width: 100vw;
+    height: 71.11vw;
+    position: relative;
+    overflow: hidden;
+    background-color: #FD809B;
+}
+
+.banner-title {
+    position: absolute;
+    top: 11.18vw;
+    left: 25.21vw;
+    font-family: 'Ponter';
+    font-size: 12.50vw;
+    color: #000;
+}
+
+.faceless-title-1 {
+    position: absolute;
+    top: 24.94vw;
+    left: 44.61vw;
+    font-family: 'MonsieurLaDoulaise';
+    font-size: 10.42vw;
+    letter-spacing: -0.52vw;
+    color: #FFF;
+}
+
+.faceless-title-2 {
+    position: absolute;
+    top: 28.07vw;
+    left: 57.11vw;
+    font-family: 'MonsieurLaDoulaise';
+    font-size: 10.42vw;
+    letter-spacing: -0.52vw;
+    color: #FFF;
+}
+
+.ban-img {
+    position: absolute;
+}
+
+.b1 {
+    width: 7.59vw;
+    transform: rotate(-90deg);
+    top: 11.11vw;
+    left: 6.74vw;
+    animation: shake 0.3s infinite;
+}
+
+.b2 {
+    width: 8.69vw;
+    height: 10.82vw;
+    transform: rotate(-10.414deg);
+    top: 10.14vw;
+    left: 19.24vw;
+    animation: shake2 0.3s infinite;
+}
+
+.b3 {
+    width: 9.40vw;
+    height: 11.15vw;
+    transform: rotate(35.758deg);
+    top: 14.32vw;
+    right: 21.29vw;
+    animation: shake 0.3s infinite;
+}
+
+.b4 {
+    width: 7.56vw;
+    transform: rotate(-90deg);
+    top: 7.92vw;
+    right: 6.46vw;
+    animation: shake2 0.3s infinite;
+}
+
+.b5 {
+    width: 7.56vw;
+    transform: rotate(-90deg);
+    top: 28.89vw;
+    left: 9vw;   
+    animation: shake 0.3s infinite;
+}
+
+.b6 {
+    width: 13.47vw;
+    height: 8.89vw;
+    transform: rotate(14.3deg);
+    top: 34vw;
+    left: 21.04vw;
+    animation: shake2 0.3s infinite;
+}
+
+.b7 {
+    width: 7.59vw;
+    transform: rotate(-90deg);
+    top: 28vw;
+    right: 17vw;
+    animation: shake 0.3s infinite;
+}
+
+.b8 {
+    width: 10.72vw;
+    height: 9.62vw;
+    transform: rotate(16.529deg);
+    top: 23vw;
+    right: 3vw;
+    animation: shake2 0.3s infinite;
+}
+
+.b9 {
+    width: 8.79vw;
+    transform: rotate(-90deg);
+    top: 38.26vw;
+    left: 46vw;
+    animation: shake 0.3s infinite;
+}
+
+.b10 {
+    width: 8.23vw;
+    height: 10.24vw;
+    transform: rotate(-20.685deg);
+    top: 40.28vw;
+    right: 22.92vw;   
+    animation: shake2 0.3s infinite; 
+}
+
+.b11 {
+    width: 13.24vw;
+    height: 8.73vw;
+    transform: rotate(32.974deg);
+    top: 34.51vw;
+    right: 4.65vw;
+    animation: shake 0.3s infinite;
+}
+
+.b12 {
+    width: 15.79vw;
+    transform: rotate(16.529deg);
+    top: 42.50vw;
+    left: 2.08vw;
+    animation: shake2 0.3s infinite;
+}
+
+.b13 {
+    height: 9.76vw;
+    transform: rotate(-15deg);
+    top: 49.17vw;
+    left: 21.46vw;
+    animation: shake 0.3s infinite;
+}
+
+.b14 {
+    width: 11.38vw;
+    height: 7.51vw;
+    transform: rotate(-23.578deg);
+    top: 48.13vw;
+    left: 37.36vw;
+    animation: shake2 0.3s infinite;
+}
+
+.b15 {
+    width: 7.61vw;
+    transform: rotate(-90deg);
+    top: 52.43vw;
+    right: 32.78vw;   
+    animation: shake 0.3s infinite; 
+}
+
+.b16 {
+    top: 49.44vw;
+    right: 12.64vw;
+    animation: shake2 0.3s infinite;
+    
+}
+
+.stroka-outer-1 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 8.40vw;
+    overflow: hidden;
+    margin-top: 62.71vw;
+}
+
+.stroka1 {
+    width: max-content;
+    height: 8.40vw;
+    overflow: hidden;
+    display: inline-block;
+    animation: stroka  12s linear infinite;
+    position: absolute;
+}
+
+.stroka1-txt {
+    width: max-content;
+    font-family: 'JetBold';
+    font-size: 7.43vw;
+    letter-spacing: -0.37vw;
+    color: #FD809B;
+    padding-right: 100px;
+    padding-right: 6.94vw;
+    margin-top: -0.7vw;
+}
+
+.stroka1-txt:hover {
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    cursor: default;
+}
+
+.about-content {
+    width: 100vw;
+    height: 141.94vw;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.pic1 {
+    height: 10.56vw;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 11.88vw;
+    left: 5.00vw;
+    animation: shake 0.3s infinite;
+}
+
+.pic2 {
+    width: 13.47vw;
+    height: 8.89vw;
+    transform: rotate(13.198deg);
+    position: absolute;
+    top: 4.86vw;
+    right: 8.40vw;    
+    animation: shake2 0.3s infinite;
+}
+
+.pic3 {
+    height: 11.82vw;
+    transform: rotate(-22.744deg);
+    position: absolute;
+    top: 53.75vw;
+    right: 20.00vw;    
+    animation: shake 0.3s infinite;
+}
+
+.pic4 {
+    width: 8.69vw;
+    height: 10.82vw;
+    transform: rotate(-10.414deg);
+    position: absolute;
+    top: 77vw;
+    left: 8vw;   
+    animation: shake2 0.3s infinite;
+    z-index: 2;
+}
+
+.pic5 {
+    height: 8.92vw;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 12vw;
+    left: 45.89vw;
+    animation: shake 0.3s infinite;
+    z-index: 1;
+}
+
+.about-title-1 {
+    position: absolute;
+    top: 10.07vw;
+    left: 24.38vw;  
+    font-family: 'Ponter';
+    font-size: 9.72vw;
+    color: #000;
+    z-index: 1;
+}
+
+.about-title-2 {
+    position: absolute;
+    bottom: 61.74vw;
+    right: 7vw;    
+    font-family: 'Ponter';
+    font-size: 9.72vw;
+    color: #000;
+    z-index: 1;
+}
+
+.about-img-1 {
+    width: 40.83vw;
+    height: 33.19vw;
+    position: absolute;
+    top: 26.67vw;
+    left: 8.89vw;
+    flex-shrink: 0;
+    background: url(../img/polo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.about-img-2 {
+    width: 40.83vw;
+    height: 33.19vw;
+    position: absolute;
+    top: 83.33vw;
+    left: 4.89vw;
+    flex-shrink: 0;
+    background: url(../img/fabrika1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.about-img-3 {
+    width: 40.83vw;
+    height: 33.19vw;
+    position: absolute;
+    top: 92.01vw;
+    right: 4.40vw;    
+    flex-shrink: 0;
+    background: url(../img/fabrika2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.about-img-1,
+.about-img-2,
+.about-img-3 {
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.about-img-1 {
+  transform: translateX(-6.94vw);
+}
+
+.about-img-2 {
+  transform: translateX(-6.94vw);
+}
+
+.about-img-3 {
+  transform: translateX(6.94vw);
+}
+
+.about-animation {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+.about-txt-1 {
+    width: 29.58vw;
+    position: absolute;
+    top: 23vw;
+    right: 11.18vw;
+    font-family: 'Jet';
+    font-size: 1.67vw;
+    letter-spacing: -0.08vw;
+    color: #FD809B;
+    z-index: 1;
+}
+
+.about-txt-2 {
+    width: 31.18vw;
+    position: absolute;
+    bottom: 6.94vw;
+    left: 16vw;
+    font-family: 'Jet';
+    font-size: 1.67vw;
+    letter-spacing: -0.08vw;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.about-pink {
+    width: 100vw;
+    height: 37.15vw;
+    position: absolute;
+    bottom: 0;
+    background: #FD809B;
+    z-index: 0;
+}
+
+.dark-page .footer-content {
+    background: rgb(255, 255, 255);
+}
+
+.dark-page .footer-txt {
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    width: 100%;
+    height: 7.50vw;
+    background: #000000;
+    z-index: 10;
+}
+
+.footer-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.7vw 0;
+    gap: 22vw;
+    background: #000000;
+}
+
+.footer-txt {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 1.39vw;
+    letter-spacing: -0.07vw;
+    padding: 1.39vw 1.39vw;
+    position: relative;
+    transition: color 0.2s;
+}
+
+.footer-txt:hover {
+    color: #FD809B;
+    cursor: default;
+}
+
+/* мероприятия */
+
+.events-content {
+    width: 100vw;
+    height: 72vw;
+    position: relative;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.ev1 {
+    height: 9.15vw;
+    transform: rotate(-10.631deg);
+    position: absolute;
+    top: 11vw;
+    left: 22.29vw;
+    z-index: 2;
+    animation: shake 0.3s infinite;
+}
+  
+.ev2 {
+    height: 5.28vw;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 11.94vw;
+    right: 40.00vw;    
+    animation: shake2 0.3s infinite;
+}
+
+.ev3 {
+    height: 8.79vw;
+    transform: rotate(-152.937deg);
+    position: absolute;
+    top: 24vw;
+    right: 24.44vw;    
+    animation: shake 0.3s infinite;
+}
+
+.ev4 {
+    height: 6.79vw;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 9.51vw;
+    right: 8.89vw;    
+    animation: shake2 0.3s infinite;
+}
+
+.events-title {
+    position: absolute;
+    top: 12.57vw;
+    left: 7.22vw;
+    font-size: 8.33vw;
+    font-family: 'Ponter';
+    color: #FD809B;
+}
+
+.carousel {
+    width: 100%;
+    height: 33.06vw;
+    position: relative;
+    margin-top: 35vw;
+}
+
+.carousel-content {
+    display: flex;
+    width: fit-content;
+    animation: carousel 10s linear infinite;
+}
+
+.poster {
+    width: 23.36vw;
+    height: 33.06vw;    
+    margin-right: 1.46vw;
+}
+
+/* книга */
+
+.book-content {
+    width: 100vw;
+    height: 63.61vw;
+    position: relative;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.book-title {
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-family: 'Ponter';
+    font-size: 8.33vw;
+    color: #FFF;
+    white-space: nowrap;
+    cursor: default;
+}
+
+.book-title:hover {
+    color: #FD809B;
+    transition: 0.3s ease-in-out;
+}
+
+.t1 {
+    top: 9.58vw;
+}
+
+.t2 {
+    top: 18.96vw;
+}
+
+.t3 {
+    top: 27.85vw;
+}
+
+.t4 {
+    top: 37vw;
+}
+
+.t5 {
+    top: 46vw;
+}
+
+.t6 {
+    bottom: -2vw;
+}
+
+.book-img {
+    width: 28.33vw;
+    height: 35.76vw;
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+    z-index: 2;
+    top: 19.65vw;
+}
+
+/* магазин */
+
+.shop-content {
+    width: 100vw;
+    height: 193.68vw;
+    position: relative;
+    overflow: hidden;
+    background-color: #FD809B;
+}
+
+.sh1 {
+    height: 8.89vw;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 9vw;
+    left: 27vw;  
+    z-index: 5;
+    animation: shake 0.3s infinite;
+}
+
+.sh2 {
+    height: 7.97vw;
+    transform: rotate(16.529deg);
+    position: absolute;
+    top: 8.19vw;
+    right: 9.93vw;
+    z-index: 5;
+    animation: shake2 0.3s infinite;
+}
+
+.sh3 {
+    height: 8.13vw;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 85.21vw;
+    left: 15.76vw;
+    z-index: 5;
+    animation: shake 0.3s infinite;
+}
+
+.product-name {
+    width: 100%;
+    height: 4.51vw;
+    position: absolute;
+    top: 0;
+    background: #000;
+    z-index: 3;
+}
+
+.name {
+    position: absolute;
+    top: 0.7vw;
+    left: 1.25vw;
+    font-family: 'Ponter';
+    font-size: 2.43vw;
+    color: #FFF;
+}
+
+.price {
+    width: 5.56vw;
+    height: 2.43vw;
+    position: absolute;
+    bottom: 2.22vw;
+    right: 2.22vw;
+    font-family: 'Roboto';
+    font-size: 1.39vw;
+    letter-spacing: -0.07vw;
+    color: #FFF;
+    background: #000;
+    border-radius: 0%;
+}
+
+.wrapper {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.product-wrapper1 {
+    width: 26.39vw;
+    height: 36.18vw;
+    top: 14.72vw;
+    left: 6.74vw;
+    background-image: url(../img/shop1.png);
+}
+
+.product-wrapper2 {
+    width: 26.39vw;
+    height: 36.18vw;
+    top: 14.72vw;
+    left: 36.81vw;
+    background-image: url(../img/shop2.png);
+}
+
+.product-wrapper3 {
+    width: 26.39vw;
+    height: 36.18vw;
+    top: 14.72vw;
+    right: 6.74vw;
+    background-image: url(../img/shop3.png);
+}
+
+.product-wrapper4 {
+    width: 56.25vw;
+    height: 36.39vw;
+    top: 54.03vw;
+    left: 6.74vw;
+    background-image: url(../img/shop4.png);
+}
+
+.product-wrapper5 {
+    width: 26.39vw;
+    height: 36.18vw;
+    top: 54.03vw;
+    right: 6.74vw;
+    background-image: url(../img/shop5.png);
+}
+
+.rotated-left {
+    transform: rotate(-15deg);
+}
+  
+.rotated-right {
+    transform: rotate(15deg);
+}
+
+.stroka-outer-2 {
+    width: 120%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 8.40vw;
+    margin-top: 106vw;
+    margin-left: -7vw;
+}
+
+.stroka2 {
+    width: max-content;
+    height: 8.40vw;
+    display: inline-block;
+    animation: stroka  7s linear infinite;
+    margin-left: -7vw;
+}
+
+.stroka2-txt {
+    width: max-content;
+    font-family: 'JetBold';
+    font-size: 7.43vw;
+    letter-spacing: -0.37vw;
+    color: #FD809B;
+    padding-right: 100px;
+    padding-right: 6.94vw;
+}
+
+.stroka-outer-3 {
+    width: 120%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 8.40vw;
+    overflow: hidden;
+    margin: -6vw -3.5vw;
+}
+
+.stroka3 {
+    width: max-content;
+    height: 8.40vw;
+    overflow: hidden;
+    display: inline-block;
+    animation: stroka1  7s linear infinite;
+    position: absolute;
+}
+
+.stroka3-txt {
+    width: max-content;
+    font-family: 'JetBold';
+    font-size: 7.43vw;
+    letter-spacing: -0.37vw;
+    color: #FD809B;
+    padding-right: 100px;
+    padding-right: 6.94vw;
+}
+
+.stroka-outer-4 {
+    width: 120%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 8.40vw;
+    margin-top: 50vw;
+    margin-left: -7vw;
+}
+
+.stroka4 {
+    width: max-content;
+    height: 8.40vw;
+    display: inline-block;
+    animation: stroka  7s linear infinite;
+    margin-left: -7vw;
+}
+
+.stroka4-txt {
+    width: max-content;
+    font-family: 'JetBold';
+    font-size: 7.43vw;
+    letter-spacing: -0.37vw;
+    color: #FD809B;
+    padding-right: 100px;
+    padding-right: 6.94vw;
+}
+
+.stroka-outer-5 {
+    width: 120%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 8.40vw;
+    overflow: hidden;
+    margin: -6vw -3.5vw;
+}
+
+.stroka5 {
+    width: max-content;
+    height: 8.40vw;
+    overflow: hidden;
+    display: inline-block;
+    animation: stroka1  7s linear infinite;
+    position: absolute;
+}
+
+.stroka5-txt {
+    width: max-content;
+    font-family: 'JetBold';
+    font-size: 7.43vw;
+    letter-spacing: -0.37vw;
+    color: #FD809B;
+    padding-right: 100px;
+    padding-right: 6.94vw;
+}
+
+.make-txt {
+    width: 49.17vw;
+    position: absolute;
+    bottom: 56.67vw;
+    left: 25.42vw;
+    text-align: center;
+    font-family: 'Ponter';
+    font-size: 3.47vw;
+    color: #FFF;
+}
+
+.make-btn {
+    width: 27.92vw;
+    height: 5.97vw;
+    position: absolute;
+    bottom: 48.13vw;
+    left: 36.04vw;
+    text-align: center;
+    font-family: 'Ponter';
+    font-size: 3.47vw;
+    color: #FFF;
+    background: #000;
+    border-radius: 0%;
+    border: none;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+    transition: transform 0.2s ease-in-out;
+}
+
+.make-btn:hover {
+    background: #FFF;
+    color: #FD809B;
+}
